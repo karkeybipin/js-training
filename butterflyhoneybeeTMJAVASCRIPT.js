@@ -203,3 +203,60 @@ async function fetchPosts() {
 }
 
 fetchPosts();
+
+
+
+// async function fetchPosts() {
+//     try {
+//         let response = await fetch('https://jsonplaceholder.typicode.com/posts');
+//         let posts = await response.json();
+//         console.log('Posts:', posts);
+//     } catch (error) {
+//         console.log('Error fetching posts:', error);
+//     }
+// }
+// async function fetchPosts() {
+//     try {
+//         let response = await fetch('https://jsonplaceholder.typicode.com/posts');
+//         let posts = await response.json();
+//         console.log('Posts:', posts);
+//     } catch (error) {
+//         console.log('Error fetching posts:', error);
+//     }
+// }
+// async function fetchPosts() {
+//     try {
+//         let response = await fetch('https://jsonplaceholder.typicode.com/posts');
+//         let posts = await response.json();
+//         console.log('Posts:', posts);
+//     } catch (error) {
+//         console.log('Error fetching posts:', error);
+//     }
+// }
+// async function fetchPosts() {
+//     try {
+//         let response = await fetch('https://jsonplaceholder.typicode.com/posts');
+//         let posts = await response.json();
+//         console.log('Posts:', posts);
+//     } catch (error) {
+//         console.log('Error fetching posts:', error);
+//     }
+// }
+// async function fetchPosts() {
+//     try {
+//         let response = await fetch('https://jsonplaceholder.typicode.com/posts');
+//         let posts = await response.json();
+//         console.log('Posts:', posts);
+//     } catch (error) {
+//         console.log('Error fetching posts:', error);
+//     }
+// }
+async function fetchPosts() {
+    try {
+        let response = await fetch('https://jsonplaceholder.typicode.com/posts');
+        let posts = await response.json();
+        console.log('Posts:', posts);
+    } catch (error) {
+        console.log('Error fetching posts:', error);
+    }
+}
